@@ -6,6 +6,7 @@ import android.util.AttributeSet
 import android.view.ViewGroup
 
 class SquareLayout : ConstraintLayout {
+
     constructor(context: Context?) : super(context)
     constructor(context: Context?, attrs: AttributeSet?) : super(context, attrs)
     constructor(context: Context?, attrs: AttributeSet?, defStyleAttr: Int) : super(context, attrs, defStyleAttr)
@@ -24,7 +25,6 @@ class SquareLayout : ConstraintLayout {
 
     private fun init(){
         viewTreeObserver.addOnPreDrawListener {
-
             if (width != height){
                 val smallerSize: Int? = Math.min(width, height)
                 val layoutParams: ViewGroup.LayoutParams? = layoutParams
@@ -33,7 +33,6 @@ class SquareLayout : ConstraintLayout {
 
                 return@addOnPreDrawListener false
             }
-
             return@addOnPreDrawListener true
         }
     }
