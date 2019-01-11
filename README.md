@@ -1,4 +1,4 @@
-## SquareLayout
+## SquareLayout (yet to publish)
 Square layout for android. 
 It only inherits from `ConstraintLayout`.
 I did not see the need to create many for each ViewGroup since it would make the library big and providing many classes you wouldn't use :smiley:
