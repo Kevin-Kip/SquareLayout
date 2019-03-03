@@ -39,7 +39,7 @@ dependencies {
 >Kotlin
 ```kotlin 
 val squareLayout = findViewById(R.id.square)
-// you can then do anything you'd do with a constarintLayout
+// you can then do anything you'd do with a constraintLayout
 ```
 
 
