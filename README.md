@@ -15,15 +15,15 @@ I did not see the need to create many for each ViewGroup since it would make the
 
 <h3 id="dependencies">Dependencies</h3>
 
+>Gradle
 ```gradle
 dependencies {
-  ...
   implementation 'com.revosleap.squarelayout:squarelayout:1.0.0'
 }
 ```
 
+>Maven
 ```maven
-
 <dependency>
   <groupId>com.revosleap.squarelayout</groupId>
   <artifactId>squarelayout</artifactId>
