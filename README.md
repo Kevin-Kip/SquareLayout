@@ -1,9 +1,9 @@
-## SquareLayout (yet to publish)
+## SquareLayout 
 Square layout for android. 
 It only inherits from `ConstraintLayout`.
 I did not see the need to create many for each ViewGroup since it would make the library big and providing many classes you wouldn't use :smiley:
 ## Table of Contents
-1. [Gradle dependency](#gradle-dependency)
+1. [Dependencies](#dependencies)
 2. [Usage](#usage)
 3. [Methods](#methods)
 4. [Contribution](#contribution)
@@ -11,27 +11,38 @@ I did not see the need to create many for each ViewGroup since it would make the
 6. [Support](#support)
 7. [License](#license)
 
-<h3 id="gradle-dependency">Gradle-dependency</h3>
-Coming in a few ...
+<h3 id="dependencies">Dependencies</h3>
 
 ```gradle
 dependencies {
   ...
-  implementation ''
+  implementation 'com.revosleap.squarelayout:squarelayout:1.0.0'
 }
 ```
+
+```maven
+
+<dependency>
+  <groupId>com.revosleap.squarelayout</groupId>
+  <artifactId>squarelayout</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
+
 <h3 id="usage">Usage</h3>
 
 >XML
 ```xml
-<com.revosleap.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"  
-  android:layout_width="match_parent"  
-  android:layout_height="wrap_content"   
-  android:id="@+id/square"
-  xmlns:app="http://schemas.android.com/apk/res-auto">  
+<com.revosleap.SquareLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"   
+    android:id="@+id/square"
+    xmlns:app="http://schemas.android.com/apk/res-auto">  
   
- <ImageView .../>
- <TextView .../>  
+    <ImageView .../>
+    <TextView .../>  
   
 </com.revosleap.SquareLayout>
 ```
