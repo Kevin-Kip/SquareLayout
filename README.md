@@ -1,3 +1,5 @@
+[![Download](https://api.bintray.com/packages/kevinkiprotich/SquareLayout/com.revosleap.squarelayout/images/download.svg) ](https://bintray.com/kevinkiprotich/SquareLayout/com.revosleap.squarelayout/_latestVersion)
+
 ## SquareLayout 
 Square layout for android. 
 It only inherits from `ConstraintLayout`.
