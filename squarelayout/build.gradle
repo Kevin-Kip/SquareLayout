@@ -21,7 +21,7 @@ apply plugin: 'com.jfrog.bintray'
 
 ext {
     bintrayRepo = 'SquareLayout'
-    bintrayName = 'kevinkiprotich'
+    bintrayName = 'com.revosleap.squarelayout'
 
     publishedGroupId = 'com.revosleap.squarelayout'
     libraryName = 'SquareLayout'
