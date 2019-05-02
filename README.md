@@ -54,6 +54,10 @@ dependencies {
 val squareLayout = findViewById(R.id.square)
 // you can then do anything you'd do with a constraintLayout
 ```
+```java
+SquareLayout squareLayout = (SquareLayout) findViewById(R.id.square)
+// you can then do anything you'd do with a constraintLayout
+```
 
 
 <h3 id="methods">Methods</h3>
